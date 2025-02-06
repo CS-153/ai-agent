@@ -1,13 +1,41 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts
 build/
 dist/
 wheels/
-*.egg-info
-
-# Virtual environments
-.venv
+tomaba-frontend/build/
+tomaba-frontend/.next/
+tomaba-frontend/out/
 
 # Secrets
 .env
+.env.local
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.firebase*
+firebase*
